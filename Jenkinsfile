@@ -39,7 +39,8 @@ pipeline {
       }
       post {
         success {
-          archiveArtifacts 'dist/add2vals dist/LogfileMonitor'
+          archiveArtifacts 'dist/add2vals'
+          archiveArtifacts 'dist/LogfileMonitor'
 
         }
 
